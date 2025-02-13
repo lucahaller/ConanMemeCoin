@@ -13,7 +13,7 @@ export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <nav className="text-white py-4 px-6 fixed w-full top-0 z-50">
+    <nav className="text-white py-4 px-6 fixed w-full top-0 z-50 bg-gradient-to-r from-stone-300 to-stone-400">
       <div
         className="max-w-7xl mx-auto flex justify-between items-center relative "
         data-aos="zoom-in-up"
