@@ -11,6 +11,11 @@ module.exports = {
         neonYellow: "#FFD700",
         neonPink: "#FF1493",
         neonPurple: "#8A2BE2",
+        marroncito: "#3d332a",
+        marronclaro: "#e4d8c2",
+      },
+      fontFamily: {
+        lucky: ["Luckiest Guy", "serif"],
       },
     },
   },
