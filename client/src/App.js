@@ -3,10 +3,13 @@ import "./App.css";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <a>sKERE</a>
-      </header>
+    <div className="">
+      <div
+        className="min-h-screen bg-gradient-to-r from-blue-200 to-cyan-200"
+        id="first"
+      >
+        <div className=""></div>
+      </div>
     </div>
   );
 }
