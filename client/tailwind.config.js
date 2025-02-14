@@ -14,6 +14,7 @@ module.exports = {
         marroncito: "#3d332a",
         marronclaro: "#e4d8c2",
         marronhover: "#685e53",
+        violetita: "#cb6ce6",
       },
       fontFamily: {
         lucky: ["Luckiest Guy", "serif"],
