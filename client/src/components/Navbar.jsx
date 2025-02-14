@@ -1,30 +1,20 @@
 import { useState } from "react";
 import { FiMenu, FiX } from "react-icons/fi";
-import logo from "../assets/logos/LOGO_2.png";
-import AOS from "aos";
-import "aos/dist/aos.css";
-AOS.init({
-  duration: 1000,
-  delay: 100,
-  once: true,
-});
+import logo from "../assets/fondos/2.png";
 
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <nav className="text-white py-4 px-6 fixed w-full top-0 z-50 bg-gradient-to-r from-stone-300 to-stone-400">
-      <div
-        className="max-w-7xl mx-auto flex justify-between items-center relative "
-        data-aos="zoom-in-up"
-      >
+    <nav className="text-white py-4 px-6 fixed w-full top-0 z-50">
+      <div className="max-w-7xl mx-auto flex justify-between items-center relative">
         {/* LOGO */}
         <a href="#" className="text-7xl font-bold text-yellow-500">
           <img src={logo} alt="Logo" className="h-20 w-auto" />
         </a>
 
         {/* LINKS DESKTOP CENTRADOS */}
-        <ul className="hidden md:flex space-x-8 text-lg absolute  font-lucky bg-marroncito py-3 px-7 border-4 border-marronclaro rounded-full left-1/2 transform -translate-x-1/2 text-stone-200">
+        <ul className="hidden md:flex space-x-8 text-lg absolute font-lucky bg-violet-500 py-3 px-7 border-4 border-black rounded-full left-1/2 transform -translate-x-1/2 text-stone-300">
           <li>
             <a href="#inicio" className="hover:text-marronclaro">
               Home
@@ -60,7 +50,7 @@ export default function Navbar() {
         {/* BOTÓN CERRAR CON MAYOR Z-INDEX */}
 
         {/* LINKS */}
-        <div className="flex flex-col items-center space-y-6 text-2xl  font-lucky text-stone-200">
+        <div className="flex flex-col items-center space-y-6 text-2xl font-lucky">
           <a
             href="#inicio"
             onClick={() => setMenuOpen(false)}
