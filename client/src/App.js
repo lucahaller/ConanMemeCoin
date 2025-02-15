@@ -13,6 +13,7 @@ import Joinus from "./pages/Joinus";
 import { useSpring, animated } from "react-spring";
 import { IoMdArrowRoundBack } from "react-icons/io";
 import HowBuy from "./pages/Howbuy";
+import TokeAbout from "./pages/TokeAbout";
 
 function App() {
   const [showVideo, setShowVideo] = useState(false);
@@ -41,7 +42,7 @@ function App() {
       <Navbar />
       <section
         className="pt-28 sm:px-10 px-5  pb-72 min-h-screen bg-gradient-to-r flex justify-center"
-        id="first"
+        id="home"
       >
         <div
           className="w-full xl:h-[1000px]  flex-col bg-purple-800 items-center  border-purple-400 border-8 rounded-3xl p-0 shadow-lg flex bg-cover"
@@ -66,12 +67,15 @@ function App() {
           </div>
         </div>
       </section>
-      <section className="min-h-full flex  justify-center items-center py-20">
-        <div className="max-w-7xl w-full flex flex-col lg:flex-row items-center  p-4 md:p-4 lg:p-4 justify-center lg:items-start gap-10 lg:gap-40">
+      <section
+        id="about"
+        className="min-h-screen flex flex-col justify-center items-center py-20 max-w-7xl mx-auto gap-20"
+      >
+        <div className="w-full flex flex-col lg:flex-row items-center justify-center p-4 md:p-4 lg:p-4 gap-10 lg:gap-40">
           {/* Contenido a la izquierda */}
-          <div className="lg:relative flex w-full lg:w-4/5 perspective">
+          <div className="flex w-full lg:w-4/5 perspective justify-center">
             <animated.div
-              className="lg:relative flex  w-full text-center lg:text-left"
+              className="flex w-full text-center lg:text-left justify-center"
               style={{
                 ...flipStyle,
                 transformStyle: "preserve-3d",
@@ -79,7 +83,7 @@ function App() {
             >
               {/* Lado del About */}
               <div
-                className={`lg:absolute flex flex-col w-full backface-hidden ${
+                className={`flex flex-col w-full backface-hidden ${
                   showVideo ? "hidden" : "block"
                 }`}
               >
@@ -104,12 +108,12 @@ function App() {
                   className="flex flex-row gap-10 mt-10 md:text-2xl text-xl w-full items-center justify-center"
                   data-aos="flip-up"
                 >
-                  <button className="px-10 w-full py-3 border-4 border-gray-100 shadow-[3px_3px_0px_#fff] text-marronclaro hover:text-gray-300 font-bold bg-violet-600 transition-all duration-300 cursor-pointer hover:translate-x-[1.5px] hover:translate-y-[1.5px] hover:shadow-[1.5px_1.5px_0px_#fff] hover:bg-violet-800 active:translate-x-[3px] active:translate-y-[3px] active:shadow-none">
-                    Read all history
+                  <button className="md:px-10 px-5 w-full py-3  border-4 border-gray-100 shadow-[3px_3px_0px_#fff] text-marronclaro hover:text-gray-300 font-bold bg-violet-600 transition-all duration-300 cursor-pointer hover:translate-x-[1.5px] hover:translate-y-[1.5px] hover:shadow-[1.5px_1.5px_0px_#fff] hover:bg-violet-800 active:translate-x-[3px] active:translate-y-[3px] active:shadow-none">
+                    Read full history
                   </button>
                   <button
                     onClick={() => setShowVideo(true)}
-                    className="px-10 py-3 w-full border-4 text-gray-900 border-gray-100 shadow-[3px_3px_0px_#fff] hover:text-gray-800 font-bold bg-violetita transition-all duration-300 cursor-pointer hover:translate-x-[1.5px] hover:translate-y-[1.5px] hover:shadow-[1.5px_1.5px_0px_#fff] hover:bg-pink-500 active:translate-x-[3px] active:translate-y-[3px] active:shadow-none"
+                    className="lg:hidden md:px-10 px-5 py-3 w-full border-4 text-gray-900 border-gray-100 shadow-[3px_3px_0px_#fff] hover:text-gray-800 font-bold bg-violetita transition-all duration-300 cursor-pointer hover:translate-x-[1.5px] hover:translate-y-[1.5px] hover:shadow-[1.5px_1.5px_0px_#fff] hover:bg-pink-500 active:translate-x-[3px] active:translate-y-[3px] active:shadow-none"
                   >
                     See a video
                   </button>
@@ -123,8 +127,6 @@ function App() {
                 }`}
               >
                 <div className="scale-x-[-1]">
-                  {" "}
-                  {/* Esto corrige la inversión */}
                   <iframe
                     className="w-full h-64 md:h-96 rounded-lg"
                     src="https://www.youtube.com/embed/IlP7gVyc5pY?si=5kOQLxZ4xwTIfud4"
@@ -135,9 +137,9 @@ function App() {
                   ></iframe>
                   <button
                     onClick={() => setShowVideo(false)}
-                    className="mt-5 px-5 flex flex-row  justify-start w-full items-center py-2 bg-red-600  font-bold rounded-lg px-7 py-3 border-4 text-gray-900 border-gray-100 shadow-[3px_3px_0px_#fff] hover:text-gray-800 font-bold bg-violetita transition-all duration-300 cursor-pointer hover:translate-x-[1.5px] hover:translate-y-[1.5px] hover:shadow-[1.5px_1.5px_0px_#fff] hover:bg-pink-500 active:translate-x-[3px] active:translate-y-[3px] active:shadow-none"
+                    className="mt-5 px-5 flex flex-row justify-start w-full items-center py-2 bg-red-600 font-bold rounded-lg px-7 py-3 border-4 text-gray-900 border-gray-100 shadow-[3px_3px_0px_#fff] hover:text-gray-800 font-bold bg-violetita transition-all duration-300 cursor-pointer hover:translate-x-[1.5px] hover:translate-y-[1.5px] hover:shadow-[1.5px_1.5px_0px_#fff] hover:bg-pink-500 active:translate-x-[3px] active:translate-y-[3px] active:shadow-none"
                   >
-                    <IoMdArrowRoundBack className="" />{" "}
+                    <IoMdArrowRoundBack />{" "}
                     <p className="flex items-center">Back</p>
                   </button>
                 </div>
@@ -146,22 +148,35 @@ function App() {
           </div>
 
           {/* Imagen a la derecha */}
-          <div className="lg:w-1/2 flex  " data-aos="fade-left">
-            <div className=" sm:m-20 lg:m-0 flex lg:relative p-1  lg:rotate-6 bg-gradient-to-r from-purple-800 to-cyan-400 rounded-xl">
-              <div className="p-2 rounded-xl  ">
-                {/* Contenido dentro del borde */}
+          <div className="lg:w-1/2 flex justify-center" data-aos="fade-left">
+            <div className="sm:m-20 lg:m-0 flex p-1 lg:rotate-6 bg-gradient-to-r from-purple-800 to-cyan-400 rounded-xl">
+              <div className="p-2 rounded-xl">
                 <img
                   src={ftm}
                   alt="Conan Illustration"
-                  className="lg:w-80  w-auto h-auto shadow-lg rounded-lg "
+                  className="lg:w-80 w-auto h-auto shadow-lg rounded-lg"
                 />
               </div>
             </div>
           </div>
         </div>
+
+        {/* Video en pantallas grandes */}
+        <div className="hidden lg:flex flex-col p-10 2xl:p-0 w-full justify-center items-center">
+          <iframe
+            className="w-full h-[500px] rounded-lg "
+            src="https://www.youtube.com/embed/IlP7gVyc5pY?si=5kOQLxZ4xwTIfud4"
+            title="YouTube video"
+            frameBorder="0"
+            allowFullScreen
+            data-aos="flip-left"
+          ></iframe>
+        </div>
       </section>
-      <HowBuy />
+
+      <HowBuy id="howtobuy" />
       <Joinus />
+      <TokeAbout />
     </div>
   );
 }

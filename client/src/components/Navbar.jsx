@@ -26,17 +26,17 @@ export default function Navbar() {
         {/* LINKS DESKTOP CENTRADOS */}
         <ul className="hidden md:flex space-x-8 text-lg absolute font-lucky bg-violet-500 py-3 px-7 border-4 border-black rounded-full left-1/2 transform -translate-x-1/2 text-stone-100">
           <li>
-            <a href="#inicio" className="hover:text-marronclaro">
+            <a href="/#home" className="hover:text-marronclaro">
               Home
             </a>
           </li>
           <li>
-            <a href="#about" className="hover:text-marronclaro">
+            <a href="/#about" className="hover:text-marronclaro">
               About
             </a>
           </li>
           <li>
-            <a href="#howtobuy" className="hover:text-marronclaro">
+            <a href="/#howtobuy" className="hover:text-marronclaro">
               How to Buy
             </a>
           </li>
@@ -62,21 +62,21 @@ export default function Navbar() {
         {/* LINKS */}
         <div className="flex flex-col items-center space-y-6 text-2xl font-lucky">
           <a
-            href="#inicio"
+            href="/#home"
             onClick={() => setMenuOpen(false)}
             className="hover:text-marronclaro"
           >
             Inicio
           </a>
           <a
-            href="#about"
+            href="/#about"
             onClick={() => setMenuOpen(false)}
             className="hover:text-marronclaro"
           >
             About
           </a>
           <a
-            href="#howtobuy"
+            href="/#howtobuy"
             onClick={() => setMenuOpen(false)}
             className="hover:text-marronclaro"
           >

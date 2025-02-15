@@ -1,10 +1,11 @@
 import React from "react";
+import conan from "../assets/pictures/ConanViejo.png";
 
 export default function HowBuy() {
   return (
     <section
-      id="HowToBuyScroll"
-      className="min-h-screen w-full py-16 bg-gradient-to-r from-purple-900 to-cyan-800"
+      id="howtobuy"
+      className="min-h-screen w-full py-16 bg-gradient-to-r from-purple-900 to-cyan-800 relative"
     >
       <div className="max-w-7xl mx-auto px-6 sm:px-12">
         {/* Título Principal */}
@@ -14,12 +15,12 @@ export default function HowBuy() {
 
         <div className="flex flex-col lg:flex-row items-center gap-10">
           {/* Columna Izquierda: Imagen */}
-          <div className="w-full lg:w-1/2 flex justify-center">
+          <div className="w-full flex justify-center">
             <div className="relative">
               <img
-                src="images/yetirocketcutout2.png"
+                src={""}
                 alt="ILUSTRACIÓN PENDIENTE"
-                className="w-full max-w-md"
+                className="w-full max-w-md h-full"
               />
             </div>
           </div>
@@ -84,6 +85,14 @@ export default function HowBuy() {
           </div>
         </div>
       </div>
+
+      {/* Imagen de Conan para móviles, ubicada en la esquina inferior derecha */}
+      <img
+        src={conan}
+        alt="Conan Animation"
+        className="absolute lg:hidden bottom-0 right-0 z-30  w-[200px] sm:w-[300px] md:w-[350px]  h-auto transform -translate-y-1/4"
+        data-aos="flip-up"
+      />
     </section>
   );
 }
