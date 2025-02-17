@@ -98,10 +98,11 @@ function App() {
                 </h2>
 
                 <p className="mt-5 text-xl text-stone-400 text-center md:text-justify">
-                  Conan is more than just a memecoin. It was born from the
-                  vision of a strong and brave dog, ready to conquer the crypto
-                  world. A token with a unique story and a community-driven
-                  spirit.
+                  Conan, President Milei's loyal companion, left an
+                  unforgettable mark on her life. After his passing, Milei
+                  decided to clone him to keep his essence alive, turning him
+                  into a symbol of loyalty, love, and resilience. His full story
+                  will amaze you. 🧵👇
                 </p>
 
                 <div
@@ -174,7 +175,7 @@ function App() {
         </div>
       </section>
 
-      <HowBuy id="howtobuy" />
+      <HowBuy />
       <Joinus />
       <TokeAbout />
     </div>

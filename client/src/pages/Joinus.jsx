@@ -9,8 +9,8 @@ export default function Joinus() {
       <img
         src={conan}
         alt="Conan Animation"
-        className="3xl:absolute  hidden 3xl:block  3xl:bottom-0  3xl:left-0 z-30 4xl:ml-5 w-[350px] 4xl:w-[500px] mb-10  h-auto transform -translate-y-1/4"
-        data-aos="flip-up"
+        className="3xl:absolute  hidden 3xl:block  3xl:bottom-0  3xl:left-0 z-10 4xl:ml-5 w-[350px] 4xl:w-[500px]  h-auto transform -translate-y-1/4"
+        data-aos="fade-right"
       />
 
       {/* Contenedor máximo */}
@@ -41,9 +41,9 @@ export default function Joinus() {
                 href="https://t.me/conancrypto"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center gap-2 bg-purple-500 text-white py-3 px-6 rounded-lg  text-base md:text-lg font-bold hover:bg-purple-600 transition-all"
+                className="flex items-center gap-2 z-50 bg-purple-500 text-white py-3 px-6 rounded-lg  text-base md:text-lg font-bold hover:bg-purple-600 transition-all"
               >
-                <BiLogoTelegram size={24} />
+                <BiLogoTelegram size={24} className="" />
                 Telegram
               </a>
 
@@ -70,11 +70,30 @@ export default function Joinus() {
               Why choose <span className="text-white">Conan?</span>
             </h1>
             <p className="text-lg sm:text-xl leading-relaxed mb-4">
-              $CONAN isn't just another memecoin—it's a movement. Inspired by
-              strength, loyalty, and the fearless nature of Conan, this coin is
-              set to dominate the blockchain battlefield. Become part of an
-              unstoppable force today!
+              Conan isn’t just a memecoin; it’s a movement.
             </p>
+            <ul className="text-lg sm:text-xl leading-relaxed mb-4 list-none space-y-2">
+              <li>
+                🔥 <strong>Unbreakable:</strong> Inspired by Conan’s strength
+                and loyalty.
+              </li>
+              <li>
+                💪 <strong>Strong Community:</strong> Built for resilience and
+                success.
+              </li>
+              <li>
+                🚀 <strong>Bold and Fearless:</strong> Challenges norms and
+                champions decentralization.
+              </li>
+              <li>
+                🌍 <strong>Real Impact:</strong> Harnessing DeFi’s power to make
+                a tangible difference.
+              </li>
+              <li>
+                🃏 <strong>Presidential Redemption:</strong> The only memecoin
+                giving Milei a chance to redeem himself after the Libra chaos.
+              </li>
+            </ul>
           </div>
         </div>
       </div>

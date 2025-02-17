@@ -1,11 +1,25 @@
 import { BiLogoTelegram } from "react-icons/bi";
 import { BsTwitterX } from "react-icons/bs";
-import conan from "../assets/pictures/ConanViejo.png";
+import conan from "../assets/pictures/cuadroconan.PNG";
 
 export default function TokeAbout() {
+  const logo = [
+    "https://files.readme.io/0aa2d7a-Birdeye_Logo_White_logomark_w_padding_600x600.png",
+    "https://avatars.githubusercontent.com/u/92743431?v=4",
+    "https://play-lh.googleusercontent.com/t0EPynB_-unnXrfsSX7tZLk9tvxkWwpqF6WqrOCGlPc6iK3KFYZnBwbuSgM5yvuOjW8g=w240-h480-rw",
+    "https://avatars.githubusercontent.com/u/68556652?s=200&v=4",
+    "https://pngimg.com/uploads/x_logo/small/x_logo_PNG12.png",
+    "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Telegram_logo.svg/800px-Telegram_logo.svg.png",
+  ];
   return (
     <section className="relative w-full flex flex-col px-6 sm:px-12 py-16 min-h-screen bg-gradient-to-r  from-purple-900 to-cyan-800 items-center justify-center">
-      <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10 items-stretch">
+      <img
+        src={conan}
+        alt="Conan Animation"
+        className="3xl:absolute  hidden 3xl:block  3xl:top-0  3xl:right-28 z-30 4xl:ml-5 w-[350px] 4xl:w-[500px]   h-auto transform -translate-y-1/4"
+        data-aos="fade-left"
+      />
+      <div className="max-w-7xl 4xl:mt-44 mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10 items-stretch">
         {/* Tokenomics */}
         <div
           data-aos="flip-up"
@@ -42,12 +56,13 @@ export default function TokeAbout() {
                 Available On
               </h1>
               <div className="grid grid-cols-3 gap-4">
-                {[...Array(6)].map((_, i) => (
-                  <div
-                    key={i}
-                    className="bg-white rounded-full p-4 w-20 h-20 flex items-center justify-center shadow-md"
-                  >
-                    <span className="text-black font-bold">Logo</span>
+                {logo.map((url, i) => (
+                  <div key={i} className="   flex items-center justify-center ">
+                    <img
+                      className=" object-contain rounded-full p-4 w-32 h-auto"
+                      src={url}
+                      alt={`Logo ${i}`}
+                    />
                   </div>
                 ))}
               </div>

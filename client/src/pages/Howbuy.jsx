@@ -32,10 +32,23 @@ export default function HowBuy() {
               <h2 className="text-3xl md:text-4xl font-lucky text-violet-400 mb-2">
                 1. Create a Wallet
               </h2>
-              <p className="text-gray-300 leading-relaxed">
-                Download Phantom or your wallet of choice from the app store or
-                Google Play Store for free. Desktop users, download the Google
-                Chrome extension by visiting the Phantom app.
+              <p className="text-gray-300 leading-relaxed ">
+                Download{" "}
+                <a
+                  href="https://phantom.com/"
+                  className="text-violet-400 inline-flex"
+                >
+                  Phantom
+                </a>{" "}
+                <img
+                  src="https://187760183-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F-MVOiF6Zqit57q_hxJYp%2Fuploads%2FHEjleywo9QOnfYebBPCZ%2FPhantom_SVG_Icon.svg?alt=media&token=71b80a0a-def7-4f98-ae70-5e0843fdaaec"
+                  className="w-8 h-auto rounded-lg inline-flex m-2"
+                />
+                <p>
+                  or your wallet of choice from the app store or Google Play
+                  Store for free. Desktop users, download the Google Chrome
+                  extension by visiting the Phantom app.
+                </p>
               </p>
             </div>
 
