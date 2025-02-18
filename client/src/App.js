@@ -61,9 +61,12 @@ function App() {
             <button className="px-10 py-3 border-4  border-black shadow-[3px_3px_0px_#000] text-white hover:text-gray-300 font-bold bg-violet-600 transition-all duration-300 cursor-pointer hover:translate-x-[1.5px] hover:translate-y-[1.5px] hover:shadow-[1.5px_1.5px_0px_#000] hover:bg-violet-700 active:translate-x-[3px] active:translate-y-[3px] active:shadow-none">
               Chart
             </button>
-            <button className="md:px-7 px-7   py-2 sm:py-3 border-4  text-gray-900 border-black shadow-[3px_3px_0px_#000] hover:text-gray-800 font-bold bg-violetita transition-all duration-300 cursor-pointer hover:translate-x-[1.5px] hover:translate-y-[1.5px] hover:shadow-[1.5px_1.5px_0px_#000] hover:bg-pink-500 active:translate-x-[3px] active:translate-y-[3px] active:shadow-none">
+            <a
+              href="/#joinus"
+              className="md:px-7 px-7   py-2 sm:py-3 border-4  text-gray-900 border-black shadow-[3px_3px_0px_#000] hover:text-gray-800 font-bold bg-violetita transition-all duration-300 cursor-pointer hover:translate-x-[1.5px] hover:translate-y-[1.5px] hover:shadow-[1.5px_1.5px_0px_#000] hover:bg-pink-500 active:translate-x-[3px] active:translate-y-[3px] active:shadow-none"
+            >
               Join us
-            </button>
+            </a>
           </div>
         </div>
       </section>
@@ -109,9 +112,12 @@ function App() {
                   className="flex flex-row gap-10 mt-10 md:text-2xl text-xl w-full items-center justify-center"
                   data-aos="flip-up"
                 >
-                  <button className="md:px-10 px-5 w-full py-3  border-4 border-gray-100 shadow-[3px_3px_0px_#fff] text-marronclaro hover:text-gray-300 font-bold bg-violet-600 transition-all duration-300 cursor-pointer hover:translate-x-[1.5px] hover:translate-y-[1.5px] hover:shadow-[1.5px_1.5px_0px_#fff] hover:bg-violet-800 active:translate-x-[3px] active:translate-y-[3px] active:shadow-none">
+                  <a
+                    href="https://x.com/conancoin25/status/1891930535246635342?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1891930535246635342%7Ctwgr%5Eb036bd34ea57e8d0ed540a5a05ed83b2a53b3f3a%7Ctwcon%5Es1_c10&ref_url=https%3A%2F%2Fpublish.twitter.com%2F%3Furl%3Dhttps%3A%2F%2Ftwitter.com%2Fconancoin25%2Fstatus%2F1891930535246635342"
+                    className="md:px-10 px-5 w-full py-3  flex items-center justify-center border-4 border-gray-100 shadow-[3px_3px_0px_#fff] text-marronclaro hover:text-gray-300 font-bold bg-violet-600 transition-all duration-300 cursor-pointer hover:translate-x-[1.5px] hover:translate-y-[1.5px] hover:shadow-[1.5px_1.5px_0px_#fff] hover:bg-violet-800 active:translate-x-[3px] active:translate-y-[3px] active:shadow-none"
+                  >
                     Read full history
-                  </button>
+                  </a>
                   <button
                     onClick={() => setShowVideo(true)}
                     className="lg:hidden md:px-10 px-5 py-3 w-full border-4 text-gray-900 border-gray-100 shadow-[3px_3px_0px_#fff] hover:text-gray-800 font-bold bg-violetita transition-all duration-300 cursor-pointer hover:translate-x-[1.5px] hover:translate-y-[1.5px] hover:shadow-[1.5px_1.5px_0px_#fff] hover:bg-pink-500 active:translate-x-[3px] active:translate-y-[3px] active:shadow-none"

@@ -4,7 +4,10 @@ import conan from "../assets/pictures/ConanViejo.png";
 
 export default function Joinus() {
   return (
-    <section className="relative w-full flex flex-col px-6 sm:px-12 py-16 min-h-screen bg-gradient-to-r items-center justify-center flex from-purple-900 to-cyan-800">
+    <section
+      id="joinus"
+      className="relative w-full flex flex-col px-6 sm:px-12 py-16 min-h-screen bg-gradient-to-r items-center justify-center flex from-purple-900 to-cyan-800"
+    >
       {/* Imagen de Conan posicionada abajo a la izquierda y solapada sobre el primer div */}
       <img
         src={conan}
@@ -48,7 +51,7 @@ export default function Joinus() {
               </a>
 
               <a
-                href="https://twitter.com/conancrypto"
+                href="https://x.com/conancoin25"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 bg-blue-500 text-white py-3 px-6 rounded-lg text-base md:text-lg font-bold hover:bg-blue-600 transition-all"

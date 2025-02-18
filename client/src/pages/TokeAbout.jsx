@@ -3,13 +3,31 @@ import { BsTwitterX } from "react-icons/bs";
 import conan from "../assets/pictures/cuadroconan.PNG";
 
 export default function TokeAbout() {
-  const logo = [
-    "https://files.readme.io/0aa2d7a-Birdeye_Logo_White_logomark_w_padding_600x600.png",
-    "https://avatars.githubusercontent.com/u/92743431?v=4",
-    "https://play-lh.googleusercontent.com/t0EPynB_-unnXrfsSX7tZLk9tvxkWwpqF6WqrOCGlPc6iK3KFYZnBwbuSgM5yvuOjW8g=w240-h480-rw",
-    "https://avatars.githubusercontent.com/u/68556652?s=200&v=4",
-    "https://pngimg.com/uploads/x_logo/small/x_logo_PNG12.png",
-    "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Telegram_logo.svg/800px-Telegram_logo.svg.png",
+  const logos = [
+    {
+      img: "https://files.readme.io/0aa2d7a-Birdeye_Logo_White_logomark_w_padding_600x600.png",
+      href: "https://birdeye.com/",
+    },
+    {
+      img: "https://avatars.githubusercontent.com/u/92743431?v=4",
+      href: "https://github.com/",
+    },
+    {
+      img: "https://play-lh.googleusercontent.com/t0EPynB_-unnXrfsSX7tZLk9tvxkWwpqF6WqrOCGlPc6iK3KFYZnBwbuSgM5yvuOjW8g=w240-h480-rw",
+      href: "https://play.google.com/",
+    },
+    {
+      img: "https://avatars.githubusercontent.com/u/68556652?s=200&v=4",
+      href: "https://example.com/",
+    },
+    {
+      img: "https://pngimg.com/uploads/x_logo/small/x_logo_PNG12.png",
+      href: "https://x.com/conancoin25",
+    },
+    {
+      img: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Telegram_logo.svg/800px-Telegram_logo.svg.png",
+      href: "https://telegram.org/",
+    },
   ];
   return (
     <section className="relative w-full flex flex-col px-6 sm:px-12 py-16 min-h-screen bg-gradient-to-r  from-purple-900 to-cyan-800 items-center justify-center">
@@ -56,14 +74,20 @@ export default function TokeAbout() {
                 Available On
               </h1>
               <div className="grid grid-cols-3 gap-4">
-                {logo.map((url, i) => (
-                  <div key={i} className="   flex items-center justify-center ">
+                {logos.map((logo, i) => (
+                  <a
+                    key={i}
+                    className="flex items-center justify-center"
+                    href={logo.href}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <img
-                      className=" object-contain rounded-full p-4 w-32 h-auto"
-                      src={url}
+                      className="object-contain rounded-full p-4 w-32 h-auto"
+                      src={logo.img}
                       alt={`Logo ${i}`}
                     />
-                  </div>
+                  </a>
                 ))}
               </div>
             </div>
@@ -88,7 +112,7 @@ export default function TokeAbout() {
                   <BiLogoTelegram size={24} /> Telegram
                 </a>
                 <a
-                  href="https://twitter.com/conancrypto"
+                  href="https://x.com/conancoin25"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-2 bg-blue-500 text-white py-3 px-6 rounded-lg text-base md:text-lg font-bold hover:bg-blue-600 transition-all"
