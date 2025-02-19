@@ -104,7 +104,7 @@ export default function TokeAbout() {
               </h1>
               <div className="flex flex-row gap-5">
                 <a
-                  href="https://t.me/conancrypto"
+                  href="https://t.me/+PYTTrIwWqpgxNGZh"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-2 bg-purple-500 text-white py-3 px-6 rounded-lg text-base md:text-lg font-bold hover:bg-purple-600 transition-all"
