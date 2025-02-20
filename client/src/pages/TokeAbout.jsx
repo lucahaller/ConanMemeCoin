@@ -43,22 +43,43 @@ export default function TokeAbout() {
           data-aos="flip-up"
           className="relative bg-gradient-to-r from-purple-800 to-cyan-400 rounded-xl border-4 p-10 shadow-xl flex flex-col justify-between h-full"
         >
-          <div className="p-2 flex flex-col items-center lg:items-start text-white text-center lg:text-left max-w-lg">
-            <h1 className="text-5xl md:text-7xl font-bold text-purple-400 mb-6 font-lucky">
+          <div className="p-2 flex flex-col   text-justify md:text-left items-start lg:items-start text-white  lg:text-left max-w-lg">
+            <h1 className="text-4xl md:text-7xl font-bold text-purple-400 mb-6 font-lucky">
               Tokenomics
             </h1>
-            <p className="text-lg sm:text-xl leading-relaxed mb-4">
-              Conan ($CONAN) is built for strength, resilience, and
-              community-driven success. Our supply model ensures fairness,
-              transparency, and longevity in the crypto space. Conan ($CONAN) is
-              built for strength, resilience, and community-driven success. Our
-              supply model ensures fairness, transparency, and longevity in the
-              crypto space. Conan ($CONAN) is built for strength, resilience,
-              and community-driven success. Our supply model ensures fairness,
-              transparency, and longevity in the crypto space. Conan ($CONAN) is
-              built for strength, resilience, and community-driven success. Our
-              supply model ensures fairness, transparency, and longevity in the
-              crypto space.
+            <p className="text-lg sm:text-xl leading-relaxed mb-4 text-justify md:text-left">
+              CONAN was launched fairly with a solid liquidity pool to support
+              the future growth of the project and build trust within the
+              community. The CONAN team, made up of experienced developers,
+              market strategists, and crypto enthusiasts, allocated the token
+              supply as follows:
+            </p>
+
+            <ul className="list-disc pl-5 mb-4 text-left">
+              <li>
+                <strong>Treasury:</strong> 10%
+              </li>
+              <li>
+                <strong>Marketing:</strong> 10%
+              </li>
+              <li>
+                <strong>Team:</strong> 10%
+              </li>
+              <li>
+                <strong>Liquidity:</strong> 70%
+              </li>
+            </ul>
+
+            <p className="text-lg sm:text-xl leading-relaxed mb-4 text-justify md:text-left">
+              This approach ensures that the CONAN ecosystem has the stability
+              needed for its expansion, promoting both project development and
+              market adoption. The team will also continue exploring strategic
+              opportunities to increase CONAN’s exposure and strengthen its
+              presence within the crypto ecosystem.
+            </p>
+
+            <p className="text-lg sm:text-xl leading-relaxed mb-4 text-left">
+              <strong>Total Token Supply:</strong> 1 Billion $CONAN
             </p>
           </div>
         </div>

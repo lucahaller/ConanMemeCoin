@@ -68,14 +68,14 @@ export default function Joinus() {
           data-aos="flip-up"
           className="relative bg-gradient-to-r from-purple-800 to-cyan-400 rounded-xl border-4 p-10 shadow-xl flex flex-col justify-between"
         >
-          <div className="p-2 flex flex-col items-center lg:items-start text-white text-center lg:text-left max-w-lg">
-            <h1 className="text-5xl md:text-7xl font-bold text-purple-400 mb-6 font-lucky">
+          <div className="p-2 flex flex-col  lg:items-start text-white lg:text-left max-w-lg">
+            <h1 className="text-6xl md:text-7xl font-bold text-purple-400 mb-6 font-lucky">
               Why choose <span className="text-white">Conan?</span>
             </h1>
             <p className="text-lg sm:text-xl leading-relaxed mb-4">
               Conan isn’t just a memecoin; it’s a movement.
             </p>
-            <ul className="text-lg sm:text-xl leading-relaxed mb-4 list-none space-y-2">
+            <ul className="text-lg sm:text-xl leading-relaxed mb-4 list-none space-y-2 text-left ">
               <li>
                 🔥 <strong>Unbreakable:</strong> Inspired by Conan’s strength
                 and loyalty.
