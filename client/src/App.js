@@ -41,35 +41,36 @@ function App() {
     >
       <Navbar />
       <section
-        className="pt-28 sm:px-10 px-5  pb-72 min-h-screen bg-gradient-to-r flex justify-center"
+        className="pt-28 sm:px-10 px-5 pb-72 min-h-[100vh] bg-gradient-to-r flex justify-center"
         id="home"
       >
         <div
-          className="w-full xl:h-[1000px]  flex-col bg-purple-800 items-center  border-purple-400 border-8 rounded-3xl p-0 shadow-lg flex bg-cover"
+          className="w-full xl:h-[1000px] min-h-[500px] flex-col bg-purple-800 items-center border-purple-400 border-8 md:border-4 rounded-3xl p-0 shadow-lg md:shadow-md flex bg-cover bg-center"
           style={{ backgroundImage: `url(${fondo2})` }}
         >
           <img
             src={logo4}
             alt="Logo"
-            className="w-fit h-3/4 pb-0"
+            className="w-auto max-h-[75vh] object-contain"
             data-aos="zoom-in"
           />
           <div
-            className="flex flex-row sm:gap-10 gap-2  md:text-3xl text-xl"
+            className="flex flex-row sm:gap-10 gap-2 md:text-3xl text-xl"
             data-aos="flip-up"
           >
-            <button className="px-10 py-3 border-4  border-black shadow-[3px_3px_0px_#000] text-white hover:text-gray-300 font-bold bg-violet-600 transition-all duration-300 cursor-pointer hover:translate-x-[1.5px] hover:translate-y-[1.5px] hover:shadow-[1.5px_1.5px_0px_#000] hover:bg-violet-700 active:translate-x-[3px] active:translate-y-[3px] active:shadow-none">
+            <button className="px-10 py-3 border-4 border-black shadow-[3px_3px_0px_#000] text-white hover:text-gray-300 font-bold bg-violet-600 transition-all duration-300 cursor-pointer hover:translate-x-[1.5px] hover:translate-y-[1.5px] hover:shadow-[1.5px_1.5px_0px_#000] hover:bg-violet-700 active:translate-x-[3px] active:translate-y-[3px] active:shadow-none">
               Chart
             </button>
             <a
               href="/#joinus"
-              className="md:px-7 px-7   py-2 sm:py-3 border-4  text-gray-900 border-black shadow-[3px_3px_0px_#000] hover:text-gray-800 font-bold bg-violetita transition-all duration-300 cursor-pointer hover:translate-x-[1.5px] hover:translate-y-[1.5px] hover:shadow-[1.5px_1.5px_0px_#000] hover:bg-pink-500 active:translate-x-[3px] active:translate-y-[3px] active:shadow-none"
+              className="md:px-7 px-7 flex items-center justify-center py-2 sm:py-3 border-4 text-gray-900 border-black shadow-[3px_3px_0px_#000] hover:text-gray-800 font-bold bg-violetita transition-all duration-300 cursor-pointer hover:translate-x-[1.5px] hover:translate-y-[1.5px] hover:shadow-[1.5px_1.5px_0px_#000] hover:bg-pink-500 active:translate-x-[3px] active:translate-y-[3px] active:shadow-none"
             >
               Join us
             </a>
           </div>
         </div>
       </section>
+
       <section
         id="about"
         className="min-h-screen flex flex-col justify-center items-center py-20 max-w-7xl mx-auto gap-20"
