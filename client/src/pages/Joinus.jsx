@@ -12,7 +12,7 @@ export default function Joinus() {
       <img
         src={conan}
         alt="Conan Animation"
-        className="3xl:absolute  hidden 3xl:block  3xl:bottom-0  3xl:left-0 z-10 4xl:ml-5 w-[350px] 4xl:w-[500px]  h-auto transform -translate-y-1/4"
+        className="3xl:absolute hidden 3xl:block 3xl:bottom-0 3xl:left-0 z-10 pointer-events-none 4xl:ml-5 w-[350px] 4xl:w-[500px] mt-20 h-auto transform -translate-y-1/4"
         data-aos="fade-right"
       />
 
@@ -22,7 +22,7 @@ export default function Joinus() {
 
         <div
           data-aos="flip-up"
-          className="relative bg-gradient-to-r from-purple-800 to-cyan-400 rounded-xl border-4 p-10 shadow-xl flex flex-col justify-between"
+          className="relative bg-gradient-to-r z-0 from-purple-800 to-cyan-400 rounded-xl border-4 p-10 shadow-xl flex flex-col justify-between"
         >
           <div className="p-2 flex flex-col items-center lg:items-start text-white text-center lg:text-left max-w-lg">
             <h1 className="text-5xl md:text-7xl  font-bold text-purple-400 mb-6 font-lucky">
@@ -44,9 +44,9 @@ export default function Joinus() {
                 href="https://t.me/imconanthedog"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center gap-2 z-50 bg-purple-500 text-white py-3 px-6 rounded-lg  text-base md:text-lg font-bold hover:bg-purple-600 transition-all"
+                className="flex items-center gap-2 z-20 bg-purple-500 text-white py-3 px-6 rounded-lg  text-base md:text-lg font-bold hover:bg-purple-600 transition-all"
               >
-                <BiLogoTelegram size={24} className="" />
+                <BiLogoTelegram size={24} className="z-50" />
                 Telegram
               </a>
 
