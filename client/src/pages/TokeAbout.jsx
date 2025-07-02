@@ -79,7 +79,7 @@ export default function TokeAbout() {
             </p>
 
             <p className="text-lg sm:text-xl leading-relaxed mb-4 text-left">
-              <strong>Total Token Supply:</strong> 1 Billion $CONAN
+              <strong>Total Token Supply:</strong> 1 Billion CONAN
             </p>
           </div>
         </div>

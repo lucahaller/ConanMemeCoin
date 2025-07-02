@@ -29,7 +29,7 @@ export default function Joinus() {
               Join <span className="text-white">Conan</span> Community
             </h1>
             <p className="text-lg sm:text-xl leading-relaxed mb-4">
-              $CONAN isn't just another memecoin—it's a movement. Inspired by
+              CONAN isn't just another memecoin—it's a movement. Inspired by
               strength, loyalty, and the fearless nature of Conan, this coin is
               set to dominate the blockchain battlefield. Become part of an
               unstoppable force today!
