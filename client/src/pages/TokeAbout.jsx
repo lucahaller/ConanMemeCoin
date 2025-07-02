@@ -22,11 +22,11 @@ export default function TokeAbout() {
     },
     {
       img: "https://pngimg.com/uploads/x_logo/small/x_logo_PNG12.png",
-      href: "https://x.com/conancoin25",
+      href: "https://x.com/thedogconan",
     },
     {
       img: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Telegram_logo.svg/800px-Telegram_logo.svg.png",
-      href: "https://telegram.org/",
+      href: "https://t.me/imconanthedog",
     },
   ];
   return (
@@ -125,7 +125,7 @@ export default function TokeAbout() {
               </h1>
               <div className="flex flex-row gap-5">
                 <a
-                  href="https://t.me/+PYTTrIwWqpgxNGZh"
+                  href="https://t.me/imconanthedog"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-2 bg-purple-500 text-white py-3 px-6 rounded-lg text-base md:text-lg font-bold hover:bg-purple-600 transition-all"
@@ -133,7 +133,7 @@ export default function TokeAbout() {
                   <BiLogoTelegram size={24} /> Telegram
                 </a>
                 <a
-                  href="https://x.com/conancoin25"
+                  href="https://x.com/thedogconan"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-2 bg-blue-500 text-white py-3 px-6 rounded-lg text-base md:text-lg font-bold hover:bg-blue-600 transition-all"

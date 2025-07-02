@@ -114,7 +114,7 @@ function App() {
                   data-aos="flip-up"
                 >
                   <a
-                    href="https://x.com/conancoin25/status/1891930535246635342?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1891930535246635342%7Ctwgr%5Eb036bd34ea57e8d0ed540a5a05ed83b2a53b3f3a%7Ctwcon%5Es1_c10&ref_url=https%3A%2F%2Fpublish.twitter.com%2F%3Furl%3Dhttps%3A%2F%2Ftwitter.com%2Fconancoin25%2Fstatus%2F1891930535246635342"
+                    href="https://x.com/thedogconan/status/1940173910835945549"
                     className="md:px-10 px-5 w-full py-3  flex items-center justify-center border-4 border-gray-100 shadow-[3px_3px_0px_#fff] text-marronclaro hover:text-gray-300 font-bold bg-violet-600 transition-all duration-300 cursor-pointer hover:translate-x-[1.5px] hover:translate-y-[1.5px] hover:shadow-[1.5px_1.5px_0px_#fff] hover:bg-violet-800 active:translate-x-[3px] active:translate-y-[3px] active:shadow-none"
                   >
                     Read full history
