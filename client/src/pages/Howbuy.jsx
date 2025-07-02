@@ -65,7 +65,7 @@ export default function HowBuy() {
                 2. Get Some SOL
               </h2>
               <p className="text-gray-300 leading-relaxed">
-                Have SOL in your wallet to switch to <strong>$CONAN</strong>. If
+                Have SOL in your wallet to switch to <strong>CONAN</strong>. If
                 you don't have any SOL, you can buy SOL from an exchange or
                 cross-chain swap and send it to your wallet.
               </p>
@@ -87,7 +87,7 @@ export default function HowBuy() {
                   raydium.io
                 </a>{" "}
                 in Google Chrome or use the browser inside your Phantom app.
-                Connect your wallet. Paste the <strong>$CONAN</strong> token
+                Connect your wallet. Paste the <strong>CONAN</strong> token
                 address into Raydium and confirm the swap. When Phantom prompts
                 you for a wallet signature, sign.
               </p>
@@ -99,7 +99,7 @@ export default function HowBuy() {
                 4. Swap
               </h2>
               <p className="text-gray-300 leading-relaxed">
-                Switch SOL for <strong>$CONAN</strong>.
+                Switch SOL for <strong>CONAN</strong>.
               </p>
             </div>
           </div>
