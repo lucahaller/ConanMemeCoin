@@ -6,15 +6,15 @@ export default function TokeAbout() {
   const logos = [
     {
       img: "https://files.readme.io/0aa2d7a-Birdeye_Logo_White_logomark_w_padding_600x600.png",
-      href: "https://birdeye.com/",
+      href: "https://birdeye.so/token/2LueajGrQyY6NuSJ3K2iaitWE7BsobZEmwfmoHfqyZhW?chain=solana",
     },
     {
       img: "https://avatars.githubusercontent.com/u/92743431?v=4",
-      href: "https://github.com/",
+      href: "https://solscan.io/token/2LueajGrQyY6NuSJ3K2iaitWE7BsobZEmwfmoHfqyZhW",
     },
     {
       img: "https://play-lh.googleusercontent.com/t0EPynB_-unnXrfsSX7tZLk9tvxkWwpqF6WqrOCGlPc6iK3KFYZnBwbuSgM5yvuOjW8g=w240-h480-rw",
-      href: "https://play.google.com/",
+      href: "https://dexscreener.com/solana/cpvfzamqobxxbsdbk8pvy1usxjyupujpmny37g44s8il",
     },
     {
       img: "https://avatars.githubusercontent.com/u/68556652?s=200&v=4",
